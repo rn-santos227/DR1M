@@ -1,3 +1,17 @@
+:root {
+  /* Light theme variables */
+  --light-bg-color: #f0f0f0;
+  --light-text-color: #000;
+  --light-hover-bg-color: #e0e0e0;
+  --light-hover-text-color: #333;
+
+  /* Dark theme variables */
+  --dark-bg-color: #333;
+  --dark-text-color: #fff;
+  --dark-hover-bg-color: #444;
+  --dark-hover-text-color: #eee;
+}
+
 .custom-button {
   padding: 10px 20px;
   font-size: 16px;
