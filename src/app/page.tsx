@@ -6,6 +6,10 @@ import Image from 'next/image';
 
 export default function Index() {
   const router = useRouter();
+
+  const handleLogin = () => {
+    router.push('/login');
+  };
   return (
     <>
       <header className="fixed top-0 left-0 w-full text-white p-2 flex justify-between items-center bg-black shadow-light-green z-50">
