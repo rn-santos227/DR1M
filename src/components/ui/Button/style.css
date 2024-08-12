@@ -1,0 +1,10 @@
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease; 
+}
