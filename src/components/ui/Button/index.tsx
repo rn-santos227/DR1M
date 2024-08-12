@@ -7,3 +7,11 @@ interface ButtonProps {
   className?: string;
   style?: React.CSSProperties; 
 }
+
+const Button: React.FC<ButtonProps> = ({ text, onClick, className = '', style }) => {
+  return (
+    <button onClick={onClick} className={`custom-button ${className}`} style={style}>
+      {text}
+    </button>
+  );
+}; 
