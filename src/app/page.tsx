@@ -4,6 +4,8 @@ import { useRouter } from 'next/navigation';
 
 import Image from 'next/image';
 
+import Button from '@/components/ui/Button';
+
 export default function Index() {
   const router = useRouter();
 
