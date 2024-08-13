@@ -27,6 +27,8 @@
   --bg-color: #00FF00;
   --text-color: #000;
   --border-color: #00FF00;
+  --hover-bg-color: var(--dark-bg-color);
+  --hover-text-color: var(--dark-text-color);
 }
 
 .green-border {
