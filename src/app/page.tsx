@@ -26,6 +26,7 @@ export default function Index() {
         </div>
         <div className="flex space-x-4 mx-4">
           <Button text="LOGIN" onClick={handleLogin} className="green-border w-40" />
+          <Button text="SIGN UP" onClick={handleSignup} className="green-filled w-40" />
         </div>
       </header>
       <main className="background flex min-h-screen flex-col items-center justify-between p-24">
