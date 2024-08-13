@@ -25,7 +25,7 @@ export default function Index() {
           <Image src="/assets/images/site-title.png" alt="Title" width={250} height={250} />
         </div>
         <div className="flex space-x-4 mx-4">
-
+          <Button text="LOGIN" onClick={handleLogin} className="green-border w-40" />
         </div>
       </header>
       <main className="background flex min-h-screen flex-col items-center justify-between p-24">
