@@ -28,3 +28,9 @@
   --text-color: #000;
   --border-color: #00FF00;
 }
+
+.green-border {
+  --bg-color: #000;
+  --text-color: #fff;
+  --border-color: #00FF00;
+}
