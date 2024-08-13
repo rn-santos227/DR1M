@@ -38,3 +38,8 @@
   --hover-bg-color: var(--light-bg-color);
   --hover-text-color: var(--light-text-color);
 }
+
+.custom-button:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--hover-text-color);
+}
