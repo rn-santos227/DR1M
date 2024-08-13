@@ -35,4 +35,6 @@
   --bg-color: #000;
   --text-color: #fff;
   --border-color: #00FF00;
+  --hover-bg-color: var(--light-bg-color);
+  --hover-text-color: var(--light-text-color);
 }
