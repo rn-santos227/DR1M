@@ -3,4 +3,5 @@ import './style.css';
 
 interface TextFieldProps {
   label: string;
+  placeholder?: string;
 }
