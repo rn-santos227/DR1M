@@ -10,7 +10,7 @@ interface TextFieldProps {
   style?: React.CSSProperties;
 }
 
-const TextField: React.FC<TextFieldProps> = () => {
+const TextField: React.FC<TextFieldProps> = ({ label, placeholder = '', value, onChange, className = '', style }) => {
   return (
     <div>
 
