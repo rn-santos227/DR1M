@@ -27,6 +27,7 @@ const TextField: React.FC<TextFieldProps> = ({
         type={isPassword ? 'password' : 'text'}
         className="text-field-input"
         placeholder={placeholder}
+        value={value}
       />
     </div>
   );
