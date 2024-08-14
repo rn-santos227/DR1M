@@ -17,7 +17,8 @@ const TextField: React.FC<TextFieldProps> = ({
   value, 
   onChange, 
   className = '', 
-  style 
+  style,
+  isPassword = false,
 }) => {
   return (
     <div className={`text-field-container ${className}`} style={style}>
