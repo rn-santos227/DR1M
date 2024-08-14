@@ -13,7 +13,7 @@ interface TextFieldProps {
 const TextField: React.FC<TextFieldProps> = ({ label, placeholder = '', value, onChange, className = '', style }) => {
   return (
     <div className={`text-field-container ${className}`} style={style}>
-
+      <label className="text-field-label">{label}</label>
     </div>
   );
 };
