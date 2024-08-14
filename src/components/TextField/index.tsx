@@ -8,6 +8,7 @@ interface TextFieldProps {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
   style?: React.CSSProperties;
+  isPassword?: boolean;
 }
 
 const TextField: React.FC<TextFieldProps> = ({ label, placeholder = '', value, onChange, className = '', style }) => {
