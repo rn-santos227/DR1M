@@ -3,22 +3,22 @@ import './style.css';
 
 interface TextFieldProps {
   label: string;
-  placeholder?: string;
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
   style?: React.CSSProperties;
   isPassword?: boolean;
+  placeholder?: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 const TextField: React.FC<TextFieldProps> = ({ 
   label, 
-  placeholder = '', 
-  value, 
-  onChange, 
   className = '', 
   style,
   isPassword = false,
+  placeholder = '', 
+  value, 
+  onChange, 
 }) => {
   return (
     <div className={`text-field-container ${className}`} style={style}>
@@ -28,6 +28,7 @@ const TextField: React.FC<TextFieldProps> = ({
         className="text-field-input"
         placeholder={placeholder}
         value={value}
+        onChange={onChange}
       />
     </div>
   );
