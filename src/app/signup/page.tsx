@@ -20,7 +20,8 @@ const SignUp: React.FC = () => {
   return (
     <div className="signup-container">
       <div className="signup-card">
-        
+        <div className="flex items-center">
+        </div>
       </div>
     </div>
   );
