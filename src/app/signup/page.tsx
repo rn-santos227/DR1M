@@ -18,8 +18,8 @@ const SignUp: React.FC = () => {
   }
 
   return (
-    <>
-      <h1>signup</h1>
-    </>
+    <div className="signup-container">
+
+    </div>
   );
 }
