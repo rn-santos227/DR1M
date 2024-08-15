@@ -21,6 +21,7 @@ const SignUp: React.FC = () => {
     <div className="signup-container">
       <div className="signup-card">
         <div className="flex items-center">
+          <Image src="/assets/images/logo-dark.png" alt="Logo" width={50} height={50} />
         </div>
       </div>
     </div>
