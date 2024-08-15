@@ -13,6 +13,10 @@ const SignUp: React.FC = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
+  const handleSubmit = (e: React.FormEvent) => {
+
+  }
+
   return (
     <>
       <h1>signup</h1>
