@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Button from '@/components/Button';
 import TextField from '@/components/TextField';
 
-export default function Signup() {
+const SignUp: React.FC = () => {
   return (
     <>
       <h1>signup</h1>
