@@ -14,7 +14,7 @@ const SignUp: React.FC = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
-
+    e.preventDefault();
   }
 
   return (
