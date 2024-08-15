@@ -9,6 +9,8 @@ import Button from '@/components/Button';
 import TextField from '@/components/TextField';
 
 const SignUp: React.FC = () => {
+  const [email, setEmail] = useState('');
+  
   return (
     <>
       <h1>signup</h1>
