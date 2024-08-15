@@ -20,4 +20,5 @@
 }
 
 .text-field-input:focus {
+  border-color: #00FF00;
 }
