@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Button from '@/components/Button';
 import TextField from '@/components/TextField';
 
-const SignUp: React.FC = () => {
+export default function Signup() {
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [walletKey, setWalletKey] = useState('');
@@ -52,13 +52,6 @@ const SignUp: React.FC = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter your password"
-          />
-          <TextField
-            label="Re-enter Password"
-            type="password"
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            placeholder="Re-enter your password"
           />
         </form>
       </div>
