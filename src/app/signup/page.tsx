@@ -10,6 +10,7 @@ import TextField from '@/components/TextField';
 
 const SignUp: React.FC = () => {
   const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [walletKey, setWalletKey] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
