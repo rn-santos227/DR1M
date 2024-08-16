@@ -3,7 +3,7 @@ import './style.css';
 
 interface ButtonProps {
   text: string;
-  onClick: () => void;
+  onClick: (e: React.FormEvent) => void;
   className?: string;
   style?: React.CSSProperties; 
 }
