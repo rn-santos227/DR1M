@@ -5,7 +5,7 @@ interface TextFieldProps {
   label: string;
   className?: string;
   style?: React.CSSProperties;
-  isPassword?: boolean;
+  type?: string;
   placeholder?: string;
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -15,7 +15,7 @@ const TextField: React.FC<TextFieldProps> = ({
   label, 
   className = '', 
   style,
-  isPassword = false,
+  type = 'text',
   placeholder = '', 
   value, 
   onChange, 
@@ -24,7 +24,7 @@ const TextField: React.FC<TextFieldProps> = ({
     <div className={`text-field-container ${className}`} style={style}>
       <label className="text-field-label">{label}</label>
       <input
-        type={isPassword ? 'password' : 'text'}
+        type={type}
         className="text-field-input"
         placeholder={placeholder}
         value={value}
