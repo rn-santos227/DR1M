@@ -61,7 +61,7 @@ export default function Signup() {
             placeholder="Re-enter your password"
           />
 
-          <Button text="CREATE ACCOUNT" onClick={handleSubmit} className="green-border w-100" />
+          <Button text="CREATE ACCOUNT" onClick={handleSubmit} className="primary-button" />
         </form>
       </div>
     </div>
