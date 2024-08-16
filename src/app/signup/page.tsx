@@ -23,6 +23,7 @@ const SignUp: React.FC = () => {
         <div className="flex items-center">
           <Image src="/assets/images/logo-dark.png" alt="Logo" width={50} height={50} />
         </div>
+        <h2>Create your account</h2>
       </div>
     </div>
   );
