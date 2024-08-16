@@ -25,7 +25,13 @@ const SignUp: React.FC = () => {
         </div>
         <h2>Create your account</h2>
         <form onSubmit={handleSubmit}>
-
+          <TextField
+            label="Email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+          />
         </form>
       </div>
     </div>
