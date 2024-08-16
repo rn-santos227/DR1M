@@ -24,6 +24,9 @@ const SignUp: React.FC = () => {
           <Image src="/assets/images/logo-dark.png" alt="Logo" width={50} height={50} />
         </div>
         <h2>Create your account</h2>
+        <form onSubmit={handleSubmit}>
+
+        </form>
       </div>
     </div>
   );
