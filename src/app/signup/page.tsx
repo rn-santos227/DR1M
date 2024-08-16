@@ -53,6 +53,13 @@ export default function Signup() {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter your password"
           />
+          <TextField
+            label="Re-enter Password"
+            type="password"
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+            placeholder="Re-enter your password"
+          />
         </form>
       </div>
     </div>
