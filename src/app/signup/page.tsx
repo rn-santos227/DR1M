@@ -46,6 +46,13 @@ const SignUp: React.FC = () => {
             onChange={(e) => setWalletKey(e.target.value)}
             placeholder="Enter your public wallet key"
           />
+          <TextField
+            label="Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Enter your password"
+          />
         </form>
       </div>
     </div>
