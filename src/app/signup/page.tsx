@@ -60,6 +60,8 @@ export default function Signup() {
             onChange={(e) => setConfirmPassword(e.target.value)}
             placeholder="Re-enter your password"
           />
+
+          <Button text="CREATE ACCOUNT" onClick={handleSubmit} className="green-border w-100" />
         </form>
       </div>
     </div>
